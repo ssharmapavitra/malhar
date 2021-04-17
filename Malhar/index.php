@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -27,32 +23,35 @@ margin-bottom: 30px;
         padding-top: 0px;
         margin-top: 0;
     }
-    
+   
     
 @media only screen and (max-width:599px) {
     .pnl{
-        margin-left: 10%;
-        margin-right:10%;
-       
+        margin-left: 2%;
+        margin-right:2%;
+        margin-top: 100px;
+
     }
-    .form-group{
-        margin:60px;    
+     .form-control{  
+        height:70px;
     }
-    
-    
+           
 }
 @media only screen and (min-width:600px) and (max-width: 899px) {
     .pnl{
         margin-left: 15%;
         margin-right: 10%;
+         margin-top: 50px;
+
     }
         .main{
         margin-top: 100px;
 
     }
-    .form-group{
-        margin:50px;    
-    }
+    .form-control{
+        
+        height:50px;
+    }  
     
 }
 
@@ -63,6 +62,11 @@ margin-bottom: 30px;
  .pnl{
         margin-left: 25%;
         margin-right: 20%;
+         margin-top: 30px;
+
+    }
+      .form-control{
+        height:35px;
     }
 
 }
@@ -98,19 +102,19 @@ margin-bottom: 30px;
          
          <form method="POST" action="submit.php">
        <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-  <input type="text" class="form-control " name="name" placeholder="Name" >
+           <input type="text" class="form-control " name="name" placeholder="Name" required>
 </div>
        
               <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-  <input type="text" class="form-control " name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.]+\.[a-z]{2,3}$" title="Please include upper case,lower case,symbols">
+  <input type="text" class="form-control " name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.]+\.[a-z]{2,3}$" title="Please include upper case,lower case,symbols">
 </div>
              
               <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-  <input type="text" class="form-control " name="contact" placeholder="Contact Number">
+  <input type="text" class="form-control " name="contact" placeholder="Contact Number" required>
 </div>
              
              <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-  <input type="text" class="form-control " name="branch" placeholder="Branch">
+  <input type="text" class="form-control " name="branch" placeholder="Branch" required>
 </div>
              
               <div class="form-group" style="margin-right: 50px; margin-left: 50px;">
@@ -131,13 +135,13 @@ margin-bottom: 30px;
          
              
              <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-  <input type="text" class="form-control " name="ig_id" placeholder="Instagram Id">
+  <input type="text" class="form-control " name="ig_id" placeholder="Instagram Id" required>
 </div>
              
               <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
                   <input type="text" class="form-control " name="chess_id" placeholder="Chess.com Id">
         <p style="margin-top: 10px;margin-bottom: 0;">(Only for candidates who are registering for chess).If you do not have this id.
-                      Please create an account at <a href="chess.com">  chess.com</a> </p>
+                      Please create an account at <a href="https://www.chess.com">  chess.com</a> </p>
 </div>
              <center>  <div class="form-group">
   <input type="submit" class="btn  btn-lg btn" value="Submit" >
