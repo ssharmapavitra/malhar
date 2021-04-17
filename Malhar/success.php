@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -17,7 +13,7 @@ and open the template in the editor.
     .pnl{
 background-color:rgba(0,0,0,0.5);
 color: white;
-padding: 9%;
+padding: 6%;
 
 }
 
@@ -73,7 +69,7 @@ padding: 9%;
         <center>  <h1 style="font-family:monotype corsiva; font-size:50px; ">Awesome!</h1>
             <p style="font-size:22px;">Your registration is completed.</p><br>
             <p id="info">Share this on your instagram and tag @malhar.mizzle <br>
-            Good luck!<br>
+                Good luck!<br><br><br>
                 Regards-<br>
             Team Malhar</p>
             
