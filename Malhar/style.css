@@ -1,0 +1,34 @@
+
+html{
+         padding: 0;
+        margin: 0;
+       
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url("img/back2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:90vw;
+        min-height: 100vh;
+    }
+   
+.panel-body{
+    margin-bottom: 20px;
+}
+#text-warning{
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color:transparent; 
+    color:white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+ 
+    
+
