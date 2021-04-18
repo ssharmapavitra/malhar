@@ -126,7 +126,7 @@ margin-bottom: 30px;
              
               <div class="form-group" style="margin-right: 50px; margin-left: 50px;">
                   <p> Competitions:</p>
-                  <label style="margin-right:20px;" id="radio"><input type="checkbox"  name="program[]" value="chess" 
+                  <label style="margin-right:20px;" id="radio"><input type="checkbox"  name="program[]" value="chess" disabled
                                                                     style="height:17px; width:17px;" >  Chess</label>
                  <label style="margin-right:20px;" id="radio"><input type="checkbox"  name="program[]" value="Open mic" 
                                                                        style="height:17px; width:17px;" >  Open mic</label>
