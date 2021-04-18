@@ -131,6 +131,8 @@ margin-bottom: 30px;
                  <label style="margin-right:20px;" id="radio"><input type="checkbox"  name="program[]" value="Open mic" 
                                                                        style="height:17px; width:17px;" >  Open mic</label>
                   <label id="radio"> <input type="checkbox"  name="program[]" value="singing" style="height:17px; width:17px;">  Singing</label>
+                  
+                  <label style="color:red;">The registrations for chess are closed</label>
 </div>
          
              
@@ -139,7 +141,7 @@ margin-bottom: 30px;
 </div>
              
               <div class="form-group" style="margin-right: 50px;margin-left: 50px;">
-                  <input type="text" class="form-control " name="chess_id" placeholder="Chess.com Id">
+                  <input type="text" class="form-control " name="chess_id" placeholder="Chess.com Id" disabled>
         <p style="margin-top: 10px;margin-bottom: 0;">(Only for candidates who are registering for chess).If you do not have this id.
                       Please create an account at <a href="https://www.chess.com">  chess.com</a> </p>
 </div>
