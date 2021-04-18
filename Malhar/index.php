@@ -131,8 +131,8 @@ margin-bottom: 30px;
                  <label style="margin-right:20px;" id="radio"><input type="checkbox"  name="program[]" value="Open mic" 
                                                                        style="height:17px; width:17px;" >  Open mic</label>
                   <label id="radio"> <input type="checkbox"  name="program[]" value="singing" style="height:17px; width:17px;">  Singing</label>
-                  
-                  <label style="color:red;">The registrations for chess are closed</label>
+                  <br>
+                  <label style="color:red;">Registrations for chess are closed</label>
 </div>
          
              
